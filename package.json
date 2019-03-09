@@ -1,0 +1,22 @@
+{
+  "name": "mars",
+  "version": "1.0.0",
+  "description": "mars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsgoku/mars.git"
+  },
+  "author": "reyshieh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsgoku/mars/issues"
+  },
+  "homepage": "https://github.com/jsgoku/mars#readme",
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}
