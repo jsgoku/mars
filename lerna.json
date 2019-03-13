@@ -2,5 +2,17 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/*.md"
+  ],
+  "version": "independent",
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "allowBranch": ["master", "monorepo"],
+      "message": "chore(release): publish"
+    }
+  }
 }
