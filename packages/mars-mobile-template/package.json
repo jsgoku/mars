@@ -1,6 +1,6 @@
 {
   "name": "@jsgoku/mars-mobile-template",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1-1.0.1-alpha.1.0",
   "description": "该模板基于vuex、vue-router，适用于开发移动应用",
   "author": "reyshieh <https://github.com/james-cain>",
   "private": false,
