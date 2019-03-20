@@ -2,17 +2,12 @@
   "packages": [
     "packages/*"
   ],
-  "ignoreChanges": [
-    "**/__fixtures__/**",
-    "**/__tests__/**",
-    "**/*.md"
-  ],
   "version": "independent",
   "npmClient": "npm",
   "command": {
     "publish": {
-      "allowBranch": ["master", "monorepo"],
       "message": "chore(release): publish"
     }
-  }
+  },
+  "registry": "https://registry.npm.taobao.org"
 }
