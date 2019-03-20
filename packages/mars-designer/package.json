@@ -1,0 +1,32 @@
+{
+  "name": "mars-designer",
+  "version": "1.0.0",
+  "description": "A designer.",
+  "keywords": [
+    "Designer",
+    "vue",
+    "html",
+    "css"
+  ],
+  "author": "james-cain <m15960192140@163.com>",
+  "homepage": "https://github.com/jsgoku/mars/tree/master/packages/mars-designer#readme",
+  "license": "ISC",
+  "main": "lib/mars-designer.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsgoku/mars.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jsgoku/mars/issues"
+  }
+}
