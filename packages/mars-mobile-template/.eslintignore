@@ -1,0 +1,5 @@
+/build/
+/config/
+/www/
+/*.js
+/src/components/plugins/

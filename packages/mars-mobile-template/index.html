@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./static/iconfont.css">
+    <script src="./static/vue-2.5.13.js"></script>
+    <script src="./static/vue-router-3.0.1.js"></script>
+    <script src="./static/axios-0.17.1.js"></script>
+    <script>
+      function judgeAserAgent() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        // 这里判断默认只支持android和ios系统的机型
+        if (bIsIphoneOs || bIsIpad) {
+          injectScript('./static/cordova_ios.js');
+        } else {
+          injectScript('./static/cordova_android.js');
+        }
+      }
+      function injectScript(url) {
+        var script = document.createElement('script');
+        script.src = url;
+        document.head.appendChild(script);
+      }
+      // judgeAserAgent();
+    </script>
+    <title>mars-mobile-template</title>
+    <meta name="description" content="vue-template"></head>
+    <style type="text/css">
+      html,body {
+        height: 100%;
+        width: 100%;
+        font-size: 15px;
+        overflow-y: hidden;
+        word-break: break-all;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+        font-family: Microsoft Yahei;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-font-smoothing: antialiased;
+      }
+      hr {
+        border: 1px solid #e0e0e0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
