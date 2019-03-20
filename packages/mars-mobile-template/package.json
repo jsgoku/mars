@@ -1,9 +1,8 @@
 {
   "name": "@jsgoku/mars-mobile-template",
-  "version": "1.0.1-1.0.1-alpha.1.0",
+  "version": "1.0.1-alpha.1",
   "description": "该模板基于vuex、vue-router，适用于开发移动应用",
   "author": "reyshieh <https://github.com/james-cain>",
-  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -15,6 +14,9 @@
       "transform": "cube-ui/src/modules/${member}",
       "kebabCase": true
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -109,5 +111,5 @@
     "screenshot": ""
   },
   "title": "demo",
-  "gitHead": "dd1099b6502a98e8019a9690910a936531bd175e"
+  "gitHead": "e5bc1b00f1a9d669c52ac96507198f848e8cdc48"
 }

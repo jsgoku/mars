@@ -1,7 +1,8 @@
 {
   "name": "@jsgoku/mars-devtools",
-  "version": "1.0.1-1.0.1-alpha.1.0",
+  "version": "1.0.1-alpha.1",
   "description": "devtools",
+  "private": true,
   "keywords": [
     "vue",
     "nodejs",
@@ -19,7 +20,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,5 @@
   "bugs": {
     "url": "https://github.com/jsgoku/mars/issues"
   },
-  "gitHead": "dd1099b6502a98e8019a9690910a936531bd175e"
+  "gitHead": "e5bc1b00f1a9d669c52ac96507198f848e8cdc48"
 }
