@@ -1,11 +1,11 @@
-# `mars-devtools`
+# `mars-go`
 
 > TODO: description
 
 ## Usage
 
 ```
-const marsDevtools = require('mars-devtools');
+const marsGo = require('mars-go');
 
 // TODO: DEMONSTRATE API
 ```
